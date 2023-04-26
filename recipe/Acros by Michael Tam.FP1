@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ConversionProfile application="" version="">
+    <PropertyGroup device="" version="" label="Acros by Michael Tam">
+        <SerialNumber />
+        <TetherRAWConditonCode />
+        <Editable />
+        <SourceFileName />
+        <Fileerror />
+        <RotationAngle />
+        <StructVer />
+        <IOPCode />
+        <ShootingCondition />
+        <FileType />
+        <ImageSize />
+        <ImageQuality />
+        <ExposureBias>0</ExposureBias>
+        <DynamicRange>Auto</DynamicRange>
+        <WideDRange />
+        <FilmSimulation>AcrosR</FilmSimulation>
+        <BlackImageTone>1</BlackImageTone>
+        <MonochromaticColor_RG>1</MonochromaticColor_RG>
+        <GrainEffect>OFF</GrainEffect>
+        <GrainEffectSize>OFF</GrainEffectSize>
+        <ChromeEffect>STRONG</ChromeEffect>
+        <ColorChromeBlue>STRONG</ColorChromeBlue>
+        <SmoothSkinEffect>OFF</SmoothSkinEffect>
+        <WBShootCond>OFF</WBShootCond>
+        <WhiteBalance>Auto</WhiteBalance>
+        <WBShiftR>0</WBShiftR>
+        <WBShiftB>0</WBShiftB>
+        <WBColorTemp>0K</WBColorTemp>
+        <HighlightTone>2</HighlightTone>
+        <ShadowTone>3</ShadowTone>
+        <Color>0</Color>
+        <Sharpness>2</Sharpness>
+        <NoisReduction>-4</NoisReduction>
+        <Clarity>5</Clarity>
+        <LensModulationOpt />
+        <ColorSpace />
+        <HDR />
+        <DigitalTeleConv />
+    </PropertyGroup>
+</ConversionProfile>
