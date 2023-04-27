@@ -1,0 +1,3 @@
+[submodule "open-fuji-recipes"]
+	path = open-fuji-recipes
+	url = https://github.com/matthieurobin/open-fuji-recipes.git
