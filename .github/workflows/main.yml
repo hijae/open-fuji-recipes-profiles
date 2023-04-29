@@ -16,7 +16,7 @@ jobs:
       run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
  
     - name: makeFP
-      run: cd hijae/open-fuji-recipes-profiles && pip3 install lxml && python3 makeFP.py
+      run: cd open-fuji-recipes-profiles && pip3 install lxml && python3 makeFP.py
 
     - name: Upload Release
       uses: ncipollo/release-action@v1
