@@ -22,7 +22,7 @@ I only have an X-Trans IV sensors camera, so I only made it for that.
 1. You'll need to create a master profile with X Raw Studio to use as a template. This is needed because we have to copy your camera model, serial number and some other fixed values to the profiles in order to make them work. You don't need to apply any special settings, since we will only use this profile as an empty husk for metadata. You have to do this for every different camera model you're using.
 2. Find the profile you just created. On Windows, they are usually here `%USERPROFILE%\AppData\Local\com.fujifilm.denji\X_RAW_STUDIO`, or on Mac `~/Library/Application Support/com.fujifilm.denji/X_RAW_STUDIO`
 3. Copy the path of your master profile
-4. clone the repo
+4. clone the repo or download from releases
 5. Open a command shell/terminal in the cloned folder and run 'git submodule init & git submodule update'
 6. Open a command shell/terminal in the folder with your profiles of choice and run this command on Windows: `python fx-templater.py "path/to/your/master/profile.FP1"`, or on Mac: `python3 fx-templater.py "path/to/your/master/profile.FP1"`
 7. The converted profiles should appear in a subfolder called `converted`
