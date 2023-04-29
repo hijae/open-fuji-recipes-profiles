@@ -1,0 +1,27 @@
+name: make release
+on:
+  push:
+    branches:
+      main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: Get current date
+      id: date
+      run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+ 
+    - name: makeFP
+      run: pip3 install lxml && python3 makeFP.py
+
+    - name: Upload Release
+      uses: ncipollo/release-action@v1
+      with:
+        artifacts: ""
+        token: ${{ secrets.GITHUB_TOKEN }}
+        tag: ver-${{ steps.date.outputs.date }}
+        name: ${{ steps.date.outputs.date }}
