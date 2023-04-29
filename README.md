@@ -16,6 +16,8 @@ I only have an X-Trans IV sensors camera, so I only made it for that.
 1. Python 3.10 (I recommend typing `python` in the command prompt and installing it from the Windows store, otherwise install from here https://www.python.org/downloads/)
 2. Fuji X Raw Studio (https://fujifilm-x.com/en-gb/support/download/software/x-raw-studio/)
 
+((Optional)) If you want to do the conversion yourself, you'll need to `pip install lxml`
+
 ### Making the profiles work with your camera
 1. You'll need to create a master profile with X Raw Studio to use as a template. This is needed because we have to copy your camera model, serial number and some other fixed values to the profiles in order to make them work. You don't need to apply any special settings, since we will only use this profile as an empty husk for metadata. You have to do this for every different camera model you're using.
 2. Find the profile you just created. On Windows, they are usually here `%USERPROFILE%\AppData\Local\com.fujifilm.denji\X_RAW_STUDIO`, or on Mac `~/Library/Application Support/com.fujifilm.denji/X_RAW_STUDIO`
