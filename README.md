@@ -30,7 +30,7 @@ I only have an X-Trans IV sensors camera, so I only made it for that.
 ## Additional resources
 Please contribute to https://github.com/matthieurobin/open-fuji-recipes/ to make more recipes available.
 
-I used fx-templater.py as it is in [plamf/fuji-x-weekly-simulation-profiles](https://github.com/plamf/fuji-x-weekly-simulation-profiles)
+I used `fx-templater.py` as it is in [plamf/fuji-x-weekly-simulation-profiles](https://github.com/plamf/fuji-x-weekly-simulation-profiles)
 If you like my work, be sure to check out that repository as well.
 
 How to use simulation recipes in Fuji X Raw Studio and save them to your camera: https://www.youtube.com/watch?v=IrGVsvo0Dx0
