@@ -1,6 +1,6 @@
 # Open fuji recipes Profiles
 
-Here you'll find a collection of Film Simulation Recipes parsed from [matthieurobin/open-fuji-recipes](fuhttps://github.com/matthieurobin/open-fuji-recipes/) and converted into profiles you can use in Fuji X Raw Studio.
+collection of Film Simulation Recipes parsed from [matthieurobin/open-fuji-recipes](https://github.com/matthieurobin/open-fuji-recipes/) and converted into profiles you can use in Fuji X Raw Studio.
 
 ## Motivation
 I was inspired by [plamf/fuji-x-weekly-simulation-profiles](https://github.com/plamf/fuji-x-weekly-simulation-profiles) that allows you to use many recipes at once.
