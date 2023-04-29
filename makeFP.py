@@ -135,4 +135,4 @@ for i in data:
     target_tag.find('Clarity').text = str(i['clarity'])
     tree = ET.ElementTree(root)
 
-    tree.write('recipe/'+i['name']+' by '+i['creator']+'.FP1', pretty_print=True, encoding='utf-8', xml_declaration=True)
+    tree.write('recipe/X-Trans IV/'+i['name']+' by '+i['creator']+'.FP1', pretty_print=True, encoding='utf-8', xml_declaration=True)
