@@ -1,3 +1,6 @@
 [submodule "open-fuji-recipes"]
 	path = open-fuji-recipes
 	url = https://github.com/matthieurobin/open-fuji-recipes.git
+[submodule "fuji-x-weekly-simulation-profiles"]
+	path = fuji-x-weekly-simulation-profiles
+	url = https://github.com/plamf/fuji-x-weekly-simulation-profiles.git

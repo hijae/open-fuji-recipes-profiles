@@ -1,0 +1,1 @@
+../../fuji-x-weekly-simulation-profiles/Fuji X Weekly Recipes/X-Trans IV/X-Pro3_X-T4_X-S10_X-E4_X-T30-II/fx-templater.py
