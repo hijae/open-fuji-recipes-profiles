@@ -7,7 +7,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout
       with:
         fetch-depth: 0
 
@@ -19,7 +19,7 @@ jobs:
       run: pip3 install lxml && python3 makeFP.py
 
     - name: Upload Release
-      uses: ncipollo/release-action@v1
+      uses: ncipollo/release-action
       with:
         artifacts: ""
         token: ${{ secrets.GITHUB_TOKEN }}
