@@ -23,7 +23,7 @@ I only have an X-Trans IV sensors camera, so I only made it for that.
 2. Find the profile you just created. On Windows, they are usually here `%USERPROFILE%\AppData\Local\com.fujifilm.denji\X_RAW_STUDIO`, or on Mac `~/Library/Application Support/com.fujifilm.denji/X_RAW_STUDIO`
 3. Copy the path of your master profile
 4. clone the repo or download from releases
-5. Open a command shell/terminal in the cloned folder and run 'git submodule init & git submodule update'
+5. Open a command shell/terminal in the cloned folder and run `git submodule init && git submodule update`
 6. Open a command shell/terminal in the folder with your profiles of choice and run this command on Windows: `python fx-templater.py "path/to/your/master/profile.FP1"`, or on Mac: `python3 fx-templater.py "path/to/your/master/profile.FP1"`
 7. The converted profiles should appear in a subfolder called `converted`
 8. Copy the profiles into the same path where you got your master template from
