@@ -14,14 +14,23 @@ jobs:
     - name: Get current date
       id: date
       run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
- 
+
+    - name: depndencies
+      run: pip3 install lxml && git submodule init && git submodule update
+
     - name: makeFP
-      run: ls && pip3 install lxml && python3 makeFP.py
+      run: python3 makeFP.py
+
+    - name: Archive Release
+      uses: thedoctor0/zip-release@main
+      with:
+        type: 'zip'
+        filename: 'release.zip'
 
     - name: Upload Release
       uses: ncipollo/release-action@v1
       with:
-        artifacts: ""
+        artifacts: "release.zip"
         token: ${{ secrets.GITHUB_TOKEN }}
         tag: ver-${{ steps.date.outputs.date }}
         name: ${{ steps.date.outputs.date }}
